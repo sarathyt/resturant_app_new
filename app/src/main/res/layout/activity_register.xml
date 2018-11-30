@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dsnfz.finalproject.LoginActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/NameTextField"
+        android:layout_width="368dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:text=""
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/userIdTextField"
+        android:layout_width="368dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:hint="UserId"
+        android:inputType="textPersonName"
+        android:text=""
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="58dp" />
+
+    <EditText
+        android:id="@+id/pinTextField"
+        android:layout_width="368dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="pin"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="368dp"
+        android:layout_height="48dp"
+        android:text="Sign Up"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+</LinearLayout>
